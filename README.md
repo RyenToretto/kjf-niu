@@ -1,24 +1,27 @@
-# kjf-niu
+## kjf-niu
 
-## Project setup
+### 1. Invalid Host header
+See [解决 Invalid Host header](https://www.xuanmo.xin/details/2869).
+```javacript
+vue.config.js
+module.exports = {
+  devServer: {
+    disableHostCheck: true
+  }
+}
+```
+
+## 2. Project setup
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
-```
-
-### Compiles and minifies for production
-```
 yarn build
 ```
 
-### Lints and fixes files
+### 3. Lints and fixes files
 ```
 yarn lint
 ```
 
-### Customize configuration
+### 4. Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
