@@ -5,6 +5,6 @@ import { Developer, DeveloperMutation } from '@/entities/store/sDeveloper';
 
 export default {
     async sSetDeveloperAge(actionContext: ActionContext<Developer, RootState>, { newAge }) {
-        actionContext.commit(DeveloperMutation.setAge, { newAge });
+        actionContext.commit(DeveloperMutation.setAge, { newAge })
     }
-} as ActionTree<Developer, RootState>;
+} as ActionTree<Developer, RootState>
